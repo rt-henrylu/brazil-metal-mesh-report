@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>巴西金属网市场热度调研报告（2026年11月）</title>
+<style>
+  :root{
+    --bg:#f5f7fa;
+    --paper:#ffffff;
+    --ink:#12233f;
+    --ink-2:#3d4f6b;
+    --muted:#6b7a90;
+    --line:#e2e8f0;
+    --brand:#0b3d6b;
+    --brand-2:#0b6e4f;
+    --accent:#c62828;
+    --gold:#c99a2e;
+    --chip:#eef3f8;
+    --green:#0b7a55;
+    --red:#b3261e;
+    --shadow:0 2px 10px rgba(18,35,63,.07), 0 12px 36px rgba(18,35,63,.06);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 500px at 90% -100px, #e7eef8 0%, rgba(231,238,248,0) 60%),
+      var(--bg);
+    color:var(--ink);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:#0b5cad;text-decoration:none;border-bottom:1px solid rgba(11,92,173,.25)}
+  a:hover{border-bottom-color:#0b5cad}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 28px 64px}
+  /* ---------- header ---------- */
+  header.hero{
+    background:
+      linear-gradient(135deg,#0a2947 0%, #0b3d6b 45%, #0b5a53 100%);
+    color:#eaf2fb;
+    padding:46px 0 40px;
+    position:relative;
+    overflow:hidden;
+  }
+  header.hero::after{
+    content:"";position:absolute;right:-140px;top:-160px;width:520px;height:520px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, rgba(201,154,46,.35), rgba(201,154,46,0) 62%);
+    pointer-events:none;
+  }
+  .hero .wrap{padding-bottom:0}
+  .eyebrow{
+    display:inline-block;font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:#ffd97a;border:1px solid rgba(255,217,122,.5);border-radius:999px;padding:4px 14px;margin-bottom:18px;
+  }
+  h1{font-size:34px;line-height:1.3;margin:0 0 12px;font-weight:800;letter-spacing:.01em}
+  .hero .sub{font-size:16px;color:#cfe0f2;margin:0 0 22px;max-width:820px}
+  .hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;color:#b9cde4;margin-bottom:26px}
+  .hero-meta span b{color:#fff;font-weight:600}
+  .answer{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,217,122,.45);
+    border-radius:14px;
+    padding:18px 22px;
+    display:flex;gap:16px;align-items:flex-start;
+    backdrop-filter:blur(2px);
+  }
+  .answer .tag{
+    flex:0 0 auto;font-size:12px;font-weight:700;letter-spacing:.08em;color:#0a2947;
+    background:#ffd97a;border-radius:8px;padding:5px 10px;margin-top:3px;
+  }
+  .answer p{margin:0;font-size:17px;color:#fff;line-height:1.65}
+  .answer p strong{color:#ffe6a3}
+  /* ---------- nav ---------- */
+  nav.toc{
+    background:var(--paper);border-radius:14px;box-shadow:var(--shadow);
+    margin:-26px 0 34px;padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px 18px;
+    position:relative;z-index:2;font-size:13.5px;
+  }
+  nav.toc a{color:var(--ink-2);border-bottom:none;padding:3px 2px}
+  nav.toc a:hover{color:var(--brand);border-bottom:1px solid var(--brand)}
+  /* ---------- KPI ---------- */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:0 0 40px}
+  .kpi{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
+  .kpi .k-label{font-size:12.5px;color:var(--muted);letter-spacing:.04em;margin-bottom:6px}
+  .kpi .k-value{font-size:23px;font-weight:800;color:var(--brand);line-height:1.25}
+  .kpi .k-value small{font-size:13px;font-weight:600;color:var(--ink-2)}
+  .kpi .k-note{font-size:12px;color:var(--muted);margin-top:4px}
+  .kpi.highlight{background:linear-gradient(160deg,#0b3d6b,#0b5a53);border:none;color:#fff}
+  .kpi.highlight .k-label{color:#bcd6ee}
+  .kpi.highlight .k-value{color:#fff}
+  .kpi.highlight .k-value small{color:#ffe6a3}
+  .kpi.highlight .k-note{color:#a9c6e0}
+  /* ---------- sections ---------- */
+  section{margin:0 0 44px}
+  h2{
+    font-size:23px;margin:0 0 6px;font-weight:800;color:var(--brand);letter-spacing:.01em;
+    display:flex;align-items:center;gap:12px;
+  }
+  h2 .no{
+    flex:0 0 auto;width:34px;height:34px;border-radius:10px;background:var(--brand);color:#fff;
+    display:inline-flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;
+  }
+  .lead{color:var(--ink-2);font-size:15px;margin:0 0 20px}
+  h3{font-size:17px;margin:26px 0 8px;color:var(--ink);font-weight:700}
+  h3 .h3-tag{font-size:12px;font-weight:600;color:var(--brand-2);background:#e7f3ee;border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:2px}
+  p{margin:0 0 12px}
+  ul,ol{margin:0 0 14px;padding-left:22px}
+  li{margin:5px 0}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px 26px;box-shadow:var(--shadow);margin:0 0 20px}
+  .card.tight{padding:18px 22px}
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .note{
+    background:#f2f7ff;border-left:4px solid #7aa7d6;border-radius:0 10px 10px 0;
+    padding:12px 18px;font-size:13.5px;color:#27476e;margin:16px 0;
+  }
+  .warn{
+    background:#fff7f2;border-left:4px solid var(--accent);border-radius:0 10px 10px 0;
+    padding:12px 18px;font-size:13.5px;color:#7a2a14;margin:16px 0;
+  }
+  .source-ref{font-size:11.5px;color:#0b5cad;vertical-align:super;line-height:0;white-space:nowrap}
+  /* ---------- tables ---------- */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--paper)}
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:12px 0 18px}
+  th{
+    background:#eef3f9;color:#1b3556;font-weight:700;text-align:left;padding:11px 12px;
+    border-bottom:1px solid var(--line);white-space:nowrap;font-size:12.8px;
+  }
+  td{padding:10px 12px;border-bottom:1px solid #eef2f7;vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  tbody tr:nth-child(even){background:#fbfcfe}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .rank{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;background:#dfe8f2;color:#1b3556;font-weight:800;font-size:12px}
+  .rank.first{background:var(--gold);color:#fff}
+  .up{color:var(--green);font-weight:700}
+  .down{color:var(--red);font-weight:700}
+  .flat{color:var(--muted);font-weight:600}
+  /* ---------- bars ---------- */
+  .barchart{margin:10px 0 4px}
+  .bar-row{display:grid;grid-template-columns:170px 1fr 110px;gap:10px;align-items:center;margin:7px 0;font-size:13px}
+  .bar-row .b-label{color:var(--ink-2);line-height:1.35}
+  .bar-row .b-label small{display:block;color:var(--muted);font-size:11px}
+  .bar-track{background:#eef2f7;border-radius:6px;height:20px;overflow:hidden;position:relative}
+  .bar-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,#0b5a8f,#0b3d6b);min-width:2px}
+  .bar-fill.gold{background:linear-gradient(90deg,#e0b34e,#c99a2e)}
+  .bar-fill.green{background:linear-gradient(90deg,#2e9d74,#0b7a55)}
+  .bar-fill.red{background:linear-gradient(90deg,#d86a5e,#b3261e)}
+  .bar-row .b-val{text-align:right;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .bar-row.hot .b-label{color:#8a5a00;font-weight:700}
+  .legend{font-size:12px;color:var(--muted);margin:8px 0 0}
+  /* ---------- trend chart (columns) ---------- */
+  .cols{display:flex;align-items:flex-end;gap:18px;height:190px;margin:12px 0 0;padding:0 6px;border-bottom:1px solid var(--line)}
+  .col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;position:relative}
+  .col .c-bar{width:100%;max-width:64px;border-radius:8px 8px 0 0;background:linear-gradient(180deg,#2f7db8,#0b3d6b);position:relative}
+  .col .c-bar.hot{background:linear-gradient(180deg,#e0b34e,#b8860b)}
+  .col .c-val{font-size:12px;font-weight:700;color:var(--ink-2);margin-bottom:5px;white-space:nowrap}
+  .col .c-year{font-size:12px;color:var(--muted);margin-top:7px}
+  /* ---------- product profile ---------- */
+  .profiles{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .profile{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:var(--paper)}
+  .profile h4{margin:0 0 6px;font-size:15.5px;color:var(--ink)}
+  .profile .p-meta{font-size:12px;color:var(--muted);margin-bottom:8px}
+  .profile p{font-size:13.5px;margin:0 0 8px}
+  .profile .p-stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .pill{font-size:11.5px;background:var(--chip);color:var(--ink-2);border-radius:999px;padding:3px 9px}
+  .pill.hot{background:#fff3d6;color:#8a5a00;font-weight:700}
+  .pill.good{background:#e7f3ee;color:#0b5a3c;font-weight:700}
+  .pill.bad{background:#fdecea;color:#8c1d18;font-weight:700}
+  /* ---------- sources ---------- */
+  ol.sources{padding-left:0;list-style:none;counter-reset:src;margin:0}
+  ol.sources li{
+    counter-increment:src;position:relative;padding:12px 14px 12px 46px;border:1px solid var(--line);
+    border-radius:12px;background:var(--paper);margin:0 0 10px;font-size:13px;line-height:1.6;
+  }
+  ol.sources li::before{
+    content:counter(src);position:absolute;left:14px;top:12px;width:22px;height:22px;border-radius:6px;
+    background:var(--brand);color:#fff;font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;
+  }
+  ol.sources .src-title{font-weight:700;color:var(--ink)}
+  ol.sources .src-meta{color:var(--muted);font-size:12px;margin-top:2px}
+  ol.sources .src-use{color:var(--ink-2);font-size:12.5px;margin-top:3px}
+  /* ---------- misc ---------- */
+  .disclaimer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:36px}
+  .footer{font-size:12px;color:#8fa0b5;text-align:center;padding:26px 0 0}
+  .divider{height:1px;background:var(--line);margin:26px 0}
+  code{background:#eef2f7;border-radius:4px;padding:1px 5px;font-size:12.5px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  @media (max-width:820px){
+    .kpis{grid-template-columns:1fr 1fr}
+    .grid-2,.profiles{grid-template-columns:1fr}
+    .bar-row{grid-template-columns:120px 1fr 90px}
+    h1{font-size:26px}
+    .wrap{padding:0 16px 48px}
+    .cols{gap:8px}
+  }
+  @media print{
+    body{background:#fff}
+    header.hero{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    nav.toc{display:none}
+    .card,.kpi{box-shadow:none}
+    section{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Market Intelligence · Brazil</span>
+    <h1>巴西金属网市场热度调研报告</h1>
+    <p class="sub">在“金属网（钢丝网）”大类中，哪个具体产品当前市场热度最高？—— 基于联合国商品贸易数据、IndexBox 海关数据与 Grand View Research / Mordor Intelligence 市场研究的量化评估。</p>
+    <div class="hero-meta">
+      <span>报告日期：<b>2026年11月12日</b></span>
+      <span>数据窗口：<b>2025年7月–2026年6月（进口）/ 2025–2031（预测）</b></span>
+      <span>引用来源：<b>全部为英文公开资料</b></span>
+      <span>口径：<b>HS 7314 钢丝网、格栅、网眼与围栏</b></span>
+    </div>
+    <div class="answer">
+      <span class="tag">核心结论</span>
+      <p><strong>镀锌链式围栏网（巴西称 alambrado，即勾花网 / 菱形网，HS 7314.41）</strong>是当前巴西金属网市场中热度最高的具体产品（以进口交易与下游围栏市场口径衡量）：近12个月进口额约 <strong>1,320 万美元</strong>，占巴西钢丝网类产品总进口额的 <strong>29.3%</strong>，进口额与实物进口量双双排名第一；其下游的巴西围栏市场 2025 年规模为 <strong>4.91 亿美元</strong>，金属围栏占 51.4%，链式围栏网被列为主要金属产品之一。</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<nav class="toc">
+  <a href="#summary">结论速览</a>
+  <a href="#market">市场总览</a>
+  <a href="#method">产品范围与方法</a>
+  <a href="#ranking">热度榜单</a>
+  <a href="#why">深度解析</a>
+  <a href="#others">其他产品动态</a>
+  <a href="#risk">风险与局限</a>
+  <a href="#action">行动建议</a>
+  <a href="#sources">数据来源</a>
+  <a href="#appendix">附录数据表</a>
+</nav>
+
+<div class="kpis">
+  <div class="kpi highlight">
+    <div class="k-label">热度最高的具体产品</div>
+    <div class="k-value">链式围栏网<br><small>alambrado（勾花网）</small></div>
+    <div class="k-note">HS 7314.41 · 镀锌钢丝网与围栏</div>
+  </div>
+  <div class="kpi">
+    <div class="k-label">近12个月进口额</div>
+    <div class="k-value">$13.2M<small>（-5.4% YoY）</small></div>
+    <div class="k-note">占 HS 7314 总进口 $45.1M 的 29.3%</div>
+  </div>
+  <div class="kpi">
+    <div class="k-label">折合进口量</div>
+    <div class="k-value">≈1.15<small> 万吨</small></div>
+    <div class="k-note">按进口均价 $1,151/吨折算，量级第一</div>
+  </div>
+  <div class="kpi">
+    <div class="k-label">下游围栏市场</div>
+    <div class="k-value">$491.2M<small>（2025）</small></div>
+    <div class="k-note">金属围栏占 51.4%，2026–2031 CAGR 6.15%</div>
+  </div>
+</div>
+
+<section id="summary">
+  <h2><span class="no">01</span>结论速览</h2>
+  <p class="lead">综合“进口规模、实物进口量、增长动能、下游景气”四个维度，本报告给出当前巴西金属网市场的产品热度排序，并解释为什么“链式围栏网”是热度最高的具体产品。</p>
+
+  <div class="card">
+    <h3 style="margin-top:0">一句话结论</h3>
+    <p><strong>镀锌链式围栏网（alambrado / 勾花网）是巴西金属网市场中当前交易热度最高的单一产品。</strong>它同时具备三个条件：（1）进口规模第一——近12个月进口 1,320 万美元，占金属网类总进口的 29.3%；（2）实物量第一——按进口均价折算约 1.15 万吨，约为第二大产品类的 2.4 倍；（3）下游最景气——围栏市场 2025 年 4.91 亿美元、2026–2031 年复合增速 6.15%，高于建筑市场（3.1%）和不锈钢工业网（无同等量级增速）。</p>
+    <p style="margin-bottom:0">需要同时看到两面：链式围栏网是<strong>规模与存量的第一</strong>，但近12个月其进口额同比 <span class="down">-5.4%</span>，而<strong>焊接网</strong>（尤其是网孔≥100cm²、焊丝≥3mm 的 HS 7314.20，同比 <span class="up">+26.9%</span>）与<strong>不锈钢编织网</strong>（同比 <span class="up">+14.5%</span>）是增长动能最强的一档。因此更准确的表述是：<strong>链式围栏网是当前热度第一，焊接网是增长潜力第一。</strong></p>
+  </div>
+
+  <div class="grid-2">
+    <div class="card tight">
+      <h3 style="margin-top:0">三条关键证据</h3>
+      <ol style="margin-bottom:0">
+        <li><strong>进口数据：</strong>2025年7月–2026年6月，巴西 HS 7314.41（镀锌钢丝网、格栅、网眼与围栏）进口 <strong>1,320 万美元</strong>，是全部 HS 7314 十个 6 位编码中最高；折合 <strong>约 1.15 万吨</strong>，进口均价 1,151 美元/吨。<span class="source-ref">[4][5]</span></li>
+        <li><strong>市场结构：</strong>巴西围栏市场 2025 年 4.91 亿美元，金属围栏占 51.4%（约 2.52 亿美元）；报告明确指出“镀锌钢丝、<strong>焊接网板与链式围栏结构</strong>仍是主要金属产品”。<span class="source-ref">[2]</span></li>
+        <li><strong>需求驱动：</strong>2025 年巴西新推住房 453,005 套（+10.6%）、Minha Casa Minha Vida 项目 224,842 套（+13.5%）；牛只圈养 925 万头（+16%）；联邦交通特许经营投资 298 亿美元、8,449 公里公路。<span class="source-ref">[2]</span></li>
+      </ol>
+    </div>
+    <div class="card tight">
+      <h3 style="margin-top:0">需要留意的两面性</h3>
+      <ul style="margin-bottom:0">
+        <li><strong>总量的短期回落：</strong>近12个月巴西 HS 7314 金属网进口 4,510 万美元，同比 <span class="down">-3.6%</span>；2024 年创下 4,816 万美元高点后回落，链式围栏网进口额也下降 5.4%。<span class="source-ref">[4][14]</span></li>
+        <li><strong>增速最快的是焊接网：</strong>大网孔焊接网 HS 7314.20 进口同比 <span class="up">+26.9%</span>、镀锌电焊网 HS 7314.31 同比 <span class="up">+6.7%</span>，受建筑业（2025 年 818 亿美元、CAGR 3.1%）支撑。<span class="source-ref">[4][6][8][3]</span></li>
+        <li><strong>高价值小众产品：</strong>不锈钢编织网 HS 7314.14 进口 1,000 万美元、同比 <span class="up">+14.5%</span>，单价高、属工业耗材，不能与围栏网按同一口径比较。<span class="source-ref">[7]</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="market">
+  <h2><span class="no">02</span>巴西金属网市场总览</h2>
+  <p class="lead">巴西是拉美最大、增长最快的金属网市场之一。整体市场由建筑业主导，农业是增速最快的应用端；贸易端在 2024 年冲高后于近12个月小幅回调。</p>
+
+  <div class="grid-2">
+    <div class="card tight">
+      <h3 style="margin-top:0">市场规模（美元）</h3>
+      <ul>
+        <li>2025 年巴西金属网（wire mesh）市场收入 <strong>3.552 亿美元</strong>，占全球 4.2%。<span class="source-ref">[1]</span></li>
+        <li>预计 2026 年 3.694 亿美元，2033 年 <strong>4.821 亿美元</strong>，2026–2033 年 CAGR <strong>3.9%</strong>；巴西是拉美增长最快的区域市场。<span class="source-ref">[1]</span></li>
+        <li>按应用端：<strong>建筑业是 2025 年最大收入来源</strong>；<strong>农业是增速最快的应用端</strong>。<span class="source-ref">[1]</span></li>
+      </ul>
+    </div>
+    <div class="card tight">
+      <h3 style="margin-top:0">上游与下游景气</h3>
+      <ul>
+        <li>巴西建筑市场 2025 年 <strong>818.3 亿美元</strong>，2030 年 953.2 亿美元，CAGR <strong>3.1%</strong>；PAC-3 基建计划与 Minha Casa Minha Vida 3.0 支撑订单。<span class="source-ref">[3]</span></li>
+        <li>巴西围栏市场 2025 年 <strong>4.9116 亿美元</strong>，2031 年 7.0281 亿美元，CAGR <strong>6.15%</strong>；金属围栏占 51.4%（约 2.52 亿美元）。<span class="source-ref">[2]</span></li>
+        <li>2025 年新推住房 453,005 套（+10.6%），Minha Casa Minha Vida 项目 224,842 套（+13.5%），推盘金额 542 亿美元。<span class="source-ref">[2]</span></li>
+        <li>2025 年牛只圈养 925 万头（+16%）；2024/25 年度粮食产量 3.502 亿吨；2025 年牛肉产量 1,230 万吨。<span class="source-ref">[2]</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>贸易端：2024 年冲高，近12个月小幅回调</h3>
+  <p>联合国商品贸易数据库（UN Comtrade，HS 7314）显示，巴西钢丝网、格栅、网眼与围栏类产品进口在 2020 年触底后回升，2024 年达到 <strong>4,816 万美元</strong>（同比约 +40.7%）；IndexBox 海关数据口径下，2025 年 7 月–2026 年 6 月为 <strong>4,510 万美元</strong>（同比 -3.6%），同期出口 690 万美元。<span class="source-ref">[4][14]</span></p>
+
+  <div class="card">
+    <h3 style="margin-top:0">巴西 HS 7314 金属网进口额（2019–2024，百万美元）</h3>
+    <div class="cols">
+      <div class="col"><div class="c-val">32.1</div><div class="c-bar" style="height:66.7%"></div><div class="c-year">2019</div></div>
+      <div class="col"><div class="c-val">26.3</div><div class="c-bar" style="height:54.5%"></div><div class="c-year">2020</div></div>
+      <div class="col"><div class="c-val">43.1</div><div class="c-bar" style="height:89.5%"></div><div class="c-year">2021</div></div>
+      <div class="col"><div class="c-val">35.1</div><div class="c-bar" style="height:72.8%"></div><div class="c-year">2022</div></div>
+      <div class="col"><div class="c-val">34.2</div><div class="c-bar" style="height:71.1%"></div><div class="c-year">2023</div></div>
+      <div class="col"><div class="c-val">48.2</div><div class="c-bar hot" style="height:100%"></div><div class="c-year">2024</div></div>
+    </div>
+    <p class="legend">数据来源：UN Comtrade（经 WITS 查询），HS 7314，进口额（CIF），2024 年为最近完整年度。<span class="source-ref">[14]</span></p>
+  </div>
+
+  <div class="note"><strong>口径提示：</strong>本报告中的“金属网”对应 HS 7314（钢丝布、格栅、网眼与围栏；钢板网），不含刺绳（HS 7313）、普通钢丝（HS 7217）与钢丝绳（HS 7312）。HS 7314.41 在海关编码中同时覆盖链式围栏网、六角网、石笼网等“镀锌非焊接网类”，无法进一步拆分，这是本报告最主要的数据局限。</div>
+</section>
+
+<section id="method">
+  <h2><span class="no">03</span>候选产品范围与“市场热度”评估方法</h2>
+  <p class="lead">“市场热度”没有统一官方指标。本报告采用可复核的四维加权模型：进口规模（40%）、实物进口量（25%）、同比增速（15%）、下游景气（20%），并优先使用英文公开数据源。</p>
+
+  <h3>候选产品与海关编码映射</h3>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>具体产品（中文/葡语/英文）</th><th>HS 编码</th><th>海关描述（英文原文）</th><th>主要用途</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>镀锌链式围栏网</strong>（alambrado / chain-link fence）</td><td>7314.41</td><td>Grill, netting and fencing, plated or coated with zinc</td><td>住宅与周界安防围栏、农业围栏</td></tr>
+        <tr><td><strong>六角网</strong>（tela hexagonal / hexagonal wire netting）</td><td>7314.41 <span style="color:#6b7a90">（同码）</span></td><td>同上（非焊接镀锌网类）</td><td>禽舍、农业、防护网</td></tr>
+        <tr><td><strong>石笼网</strong>（gabião / gabion）</td><td>7314.41–7314.42</td><td>同上 / coated with plastics</td><td>挡土墙、河道与边坡治理</td></tr>
+        <tr><td><strong>镀锌电焊网</strong>（tela soldada galvanizada）</td><td>7314.31</td><td>Other wire cloth, grill, netting and fencing, welded at the intersection, plated or coated with zinc</td><td>建筑、围栏网板、防护</td></tr>
+        <tr><td><strong>钢筋焊接网</strong>（tela soldada / welded reinforcement mesh）</td><td>7314.20</td><td>Welded mesh, wire cross-section ≥3 mm, mesh size ≥100 cm²</td><td>混凝土楼板与构件配筋</td></tr>
+        <tr><td><strong>非镀锌焊接网</strong></td><td>7314.39</td><td>Welded steel wire grill and netting, not galvanized</td><td>建筑与工业</td></tr>
+        <tr><td><strong>钢板网</strong>（chapa expandida / expanded metal）</td><td>7314.50</td><td>Expanded metal, iron or steel</td><td>吊顶、平台、机械防护</td></tr>
+        <tr><td><strong>不锈钢编织网</strong></td><td>7314.14</td><td>Other woven cloth, of stainless steel</td><td>过滤、筛分、工业网</td></tr>
+        <tr><td><strong>普通编织网</strong></td><td>7314.19</td><td>Other woven wire cloth, not stainless</td><td>筛分、过滤、防护</td></tr>
+        <tr><td><strong>精细涂层网 / 窗纱类</strong></td><td>7314.49</td><td>Netting coated other than zinc or plastic</td><td>精细过滤、窗纱、防护</td></tr>
+        <tr><td><strong>浸塑网类</strong></td><td>7314.42</td><td>Netting coated with plastics</td><td>园艺、围栏、防护</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="legend">海关描述来源：UN Comtrade HS 参考分类与美国协调关税表（HTS）2022 版对应条目；产品中文名为本报告按巴西市场习惯对应。<span class="source-ref">[4][5][6][7][8][9]</span></p>
+
+  <h3>热度指数计算方法</h3>
+  <div class="card tight">
+    <p style="margin-bottom:8px"><strong>热度指数 = 0.40 × 进口规模分 + 0.25 × 实物量分 + 0.15 × 增速分 + 0.20 × 下游景气分</strong>，各项先做 0–1 归一化（进口规模与实物量取对数归一化，避免极端值主导）。</p>
+    <ul style="margin-bottom:0">
+      <li><strong>进口规模分 / 实物量分：</strong>近12个月（2025年7月–2026年6月）HS 6位编码进口额及按进口均价折算的吨数（IndexBox 海关数据）。<span class="source-ref">[4]–[13]</span></li>
+      <li><strong>增速分：</strong>同一窗口进口额同比增速，-29.2% 至 +26.9% 做最小–最大归一化。</li>
+      <li><strong>下游景气分：</strong>按产品对应下游给出 3.0–5.0 的分析师评分（围栏 5.0；建筑 4.0–4.5；工业 3.5；利基消费 3.0），再归一化；下游市场规模与增速来自 Grand View Research 与 Mordor Intelligence。<span class="source-ref">[1][2][3]</span></li>
+      <li><strong>权重依据：</strong>“热度”首先看真实交易体量，故规模与实物量合计 65%；增速代表动能、下游景气代表可持续性。</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ranking">
+  <h2><span class="no">04</span>热度榜单：链式围栏网居首</h2>
+  <p class="lead">按上述四维模型计算，镀锌围栏网类（HS 7314.41，含链式围栏网、六角网、石笼网）以 93 分明显领先；第二梯队由焊接网（镀锌电焊网、非镀锌/大网孔焊接网）与不锈钢编织网构成。</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:44px">排名</th><th>产品组</th><th>HS 编码</th>
+          <th class="num">进口额</th><th class="num">折合进口量</th><th class="num">同比</th>
+          <th style="width:210px">综合热度</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rank first">1</span></td>
+          <td><strong>镀锌围栏/网类（链式围栏网为主）</strong><br><span style="color:#6b7a90;font-size:12px">alambrado / chain-link &amp; galvanized netting</span></td>
+          <td>7314.41</td>
+          <td class="num"><strong>$13.2M</strong></td>
+          <td class="num">≈1.15 万吨</td>
+          <td class="num down">-5.4%</td>
+          <td><div class="bar-track"><div class="bar-fill gold" style="width:93%"></div></div><span style="font-size:11.5px;color:#8a5a00;font-weight:700">93 / 100</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank">2</span></td>
+          <td><strong>镀锌电焊网</strong><br><span style="color:#6b7a90;font-size:12px">tela soldada galvanizada</span></td>
+          <td>7314.31</td>
+          <td class="num">$5.2M</td>
+          <td class="num">≈0.47 万吨</td>
+          <td class="num up">+6.7%</td>
+          <td><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div><span style="font-size:11.5px;color:#3d4f6b;font-weight:700">70 / 100</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank">3</span></td>
+          <td><strong>不锈钢编织网</strong><br><span style="color:#6b7a90;font-size:12px">woven stainless steel wire cloth</span></td>
+          <td>7314.14</td>
+          <td class="num">$10.0M</td>
+          <td class="num">≈0.18 万吨<sup>*</sup></td>
+          <td class="num up">+14.5%</td>
+          <td><div class="bar-track"><div class="bar-fill" style="width:69%"></div></div><span style="font-size:11.5px;color:#3d4f6b;font-weight:700">69 / 100</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank">4</span></td>
+          <td><strong>非镀锌 / 大网孔焊接网</strong><br><span style="color:#6b7a90;font-size:12px">welded mesh, non-galvanized &amp; heavy welded</span></td>
+          <td>7314.39 + 7314.20</td>
+          <td class="num">$5.1M</td>
+          <td class="num">≈0.35 万吨</td>
+          <td class="num up">+5.9%<sup>†</sup></td>
+          <td><div class="bar-track"><div class="bar-fill" style="width:68%"></div></div><span style="font-size:11.5px;color:#3d4f6b;font-weight:700">68 / 100</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank">5</span></td>
+          <td><strong>钢板网</strong><br><span style="color:#6b7a90;font-size:12px">chapa expandida / expanded metal</span></td>
+          <td>7314.50</td>
+          <td class="num">$5.1M</td>
+          <td class="num">≈0.33 万吨</td>
+          <td class="num down">-29.2%</td>
+          <td><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><span style="font-size:11.5px;color:#3d4f6b;font-weight:700">50 / 100</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank">6</span></td>
+          <td><strong>精细涂层网 / 窗纱类</strong><br><span style="color:#6b7a90;font-size:12px">fine coated netting</span></td>
+          <td>7314.49</td>
+          <td class="num">$1.5M</td>
+          <td class="num">≈0.015 万吨</td>
+          <td class="num down">-1.6%</td>
+          <td><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span style="font-size:11.5px;color:#3d4f6b;font-weight:700">10 / 100</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="legend"><sup>*</sup> 不锈钢编织网未公布进口吨数，按 UN Comtrade 2024 年单位价值约 5,400 美元/吨估算。 <sup>†</sup> 7314.39 与 7314.20 两编码按进口额加权。浸塑网（7314.42）进口约 140 万美元、出口 190 万美元，巴西为净出口方，未纳入上述榜单；镀锌非焊接网（7314.41）与镀锌电焊网（7314.31）是进口端仅有的两个超 500 万美元的“围栏/焊接网”类别。</p>
+
+  <h3>进口额对比（近12个月，HS 6位）</h3>
+  <div class="barchart">
+    <div class="bar-row hot"><div class="b-label">7314.41 镀锌围栏/网类<small>链式围栏网、六角网、石笼网</small></div><div class="bar-track"><div class="bar-fill gold" style="width:100%"></div></div><div class="b-val">$13.2M</div></div>
+    <div class="bar-row"><div class="b-label">7314.14 不锈钢编织网<small>woven stainless cloth</small></div><div class="bar-track"><div class="bar-fill" style="width:75.8%"></div></div><div class="b-val">$10.0M</div></div>
+    <div class="bar-row"><div class="b-label">7314.31 镀锌电焊网<small>galvanized welded mesh</small></div><div class="bar-track"><div class="bar-fill" style="width:39.4%"></div></div><div class="b-val">$5.2M</div></div>
+    <div class="bar-row"><div class="b-label">7314.50 钢板网<small>expanded metal</small></div><div class="bar-track"><div class="bar-fill" style="width:38.6%"></div></div><div class="b-val">$5.1M</div></div>
+    <div class="bar-row"><div class="b-label">7314.39 非镀锌焊接网<small>welded, not galvanized</small></div><div class="bar-track"><div class="bar-fill" style="width:24.2%"></div></div><div class="b-val">$3.2M</div></div>
+    <div class="bar-row"><div class="b-label">7314.19 普通编织网<small>woven wire cloth, non-stainless</small></div><div class="bar-track"><div class="bar-fill" style="width:22.0%"></div></div><div class="b-val">$2.9M</div></div>
+    <div class="bar-row"><div class="b-label">7314.20 大网孔焊接网<small>welded mesh ≥3mm / ≥100cm²</small></div><div class="bar-track"><div class="bar-fill" style="width:14.4%"></div></div><div class="b-val">$1.9M</div></div>
+    <div class="bar-row"><div class="b-label">7314.49 精细涂层网<small>fine coated netting</small></div><div class="bar-track"><div class="bar-fill" style="width:11.4%"></div></div><div class="b-val">$1.5M</div></div>
+    <div class="bar-row"><div class="b-label">7314.42 浸塑网<small>plastic-coated netting</small></div><div class="bar-track"><div class="bar-fill" style="width:10.6%"></div></div><div class="b-val">$1.4M</div></div>
+    <div class="bar-row"><div class="b-label">7314.12 不锈钢环带<small>endless bands, stainless</small></div><div class="bar-track"><div class="bar-fill" style="width:5.3%"></div></div><div class="b-val">$0.7M</div></div>
+  </div>
+  <p class="legend">数据来源：IndexBox 巴西海关数据，2025年7月–2026年6月。<span class="source-ref">[4]–[13]</span> 合计 4,510 万美元（HS 7314）。</p>
+
+  <div class="grid-2">
+    <div class="card tight">
+      <h3 style="margin-top:0">折合进口量对比（吨，按进口均价折算）</h3>
+      <div class="barchart" style="margin-top:4px">
+        <div class="bar-row hot"><div class="b-label">7314.41 镀锌围栏/网类</div><div class="bar-track"><div class="bar-fill gold" style="width:100%"></div></div><div class="b-val">≈11,468 t</div></div>
+        <div class="bar-row"><div class="b-label">7314.31 镀锌电焊网</div><div class="bar-track"><div class="bar-fill" style="width:41.4%"></div></div><div class="b-val">≈4,749 t</div></div>
+        <div class="bar-row"><div class="b-label">7314.50 钢板网</div><div class="bar-track"><div class="bar-fill" style="width:28.7%"></div></div><div class="b-val">≈3,295 t</div></div>
+        <div class="bar-row"><div class="b-label">7314.39 非镀锌焊接网</div><div class="bar-track"><div class="bar-fill" style="width:21.3%"></div></div><div class="b-val">≈2,445 t</div></div>
+        <div class="bar-row"><div class="b-label">7314.20 大网孔焊接网</div><div class="bar-track"><div class="bar-fill" style="width:9.2%"></div></div><div class="b-val">≈1,051 t</div></div>
+        <div class="bar-row"><div class="b-label">7314.49 精细涂层网</div><div class="bar-track"><div class="bar-fill" style="width:1.3%"></div></div><div class="b-val">≈145 t</div></div>
+      </div>
+      <p class="legend">量 = 进口额 ÷ 2026年6月进口均价。<span class="source-ref">[5][6][8][9][10]</span></p>
+    </div>
+    <div class="card tight">
+      <h3 style="margin-top:0">进口同比增速（近12个月）</h3>
+      <div class="barchart" style="margin-top:4px">
+        <div class="bar-row"><div class="b-label">7314.20 大网孔焊接网</div><div class="bar-track"><div class="bar-fill green" style="width:89.7%"></div></div><div class="b-val up">+26.9%</div></div>
+        <div class="bar-row"><div class="b-label">7314.19 普通编织网</div><div class="bar-track"><div class="bar-fill green" style="width:58.7%"></div></div><div class="b-val up">+17.6%</div></div>
+        <div class="bar-row"><div class="b-label">7314.14 不锈钢编织网</div><div class="bar-track"><div class="bar-fill green" style="width:48.3%"></div></div><div class="b-val up">+14.5%</div></div>
+        <div class="bar-row"><div class="b-label">7314.31 镀锌电焊网</div><div class="bar-track"><div class="bar-fill green" style="width:22.3%"></div></div><div class="b-val up">+6.7%</div></div>
+        <div class="bar-row"><div class="b-label">7314.49 精细涂层网</div><div class="bar-track"><div class="bar-fill red" style="width:5.3%"></div></div><div class="b-val down">-1.6%</div></div>
+        <div class="bar-row hot"><div class="b-label">7314.41 镀锌围栏/网类</div><div class="bar-track"><div class="bar-fill red" style="width:18.0%"></div></div><div class="b-val down">-5.4%</div></div>
+        <div class="bar-row"><div class="b-label">7314.39 非镀锌焊接网</div><div class="bar-track"><div class="bar-fill red" style="width:22.0%"></div></div><div class="b-val down">-6.6%</div></div>
+        <div class="bar-row"><div class="b-label">7314.50 钢板网</div><div class="bar-track"><div class="bar-fill red" style="width:97.3%"></div></div><div class="b-val down">-29.2%</div></div>
+      </div>
+      <p class="legend">红色为负增长；绿色为正增长。<span class="source-ref">[4]–[13]</span></p>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <h2><span class="no">05</span>深度解析：为什么是链式围栏网</h2>
+  <p class="lead">链式围栏网的热度并非单一数据点，而是“进口规模第一 + 下游围栏市场最大金属品类 + 住宅/农业/基建三重驱动”共同构成的。</p>
+
+  <h3>1）进口规模与实物量双第一<span class="h3-tag">数据</span></h3>
+  <p>在 10 个 HS 6 位编码中，镀锌围栏/网类（7314.41）近12个月进口 1,320 万美元，占 HS 7314 总进口（4,510 万美元）的 <strong>29.3%</strong>；按进口均价 1,151 美元/吨折算约 <strong>1.15 万吨</strong>，是第二名镀锌电焊网（约 4,749 吨）的 2.4 倍、大网孔焊接网（约 1,051 吨）的约 11 倍。<span class="source-ref">[4][5]</span> 另一个佐证是价格：该品类进口均价 1,151 美元/吨，明显低于精细涂层网（10,321 美元/吨）和大网孔焊接网（1,808 美元/吨），说明其进口以<strong>大批量、标准化、价格敏感</strong>的围栏网产品为主，符合“走量型”热销品特征。</p>
+
+  <h3>2）下游围栏市场：金属占主导，链式结构是主力产品<span class="h3-tag">市场</span></h3>
+  <p>巴西围栏市场 2025 年规模 4.9116 亿美元，预计 2031 年达 7.0281 亿美元（CAGR 6.15%）。按材料分，<strong>金属围栏 2025 年占 51.4%</strong>，是最大材料类别；报告明确写道：“镀锌钢丝、焊接网板与<strong>链式围栏结构（chain-link structures）</strong>仍是主要产品”，因为它们可同时服务农业、工业、基础设施与普通住宅场景，且安装方式无需大改。<span class="source-ref">[2]</span> 按终端分，住宅占 30.6%，是最大终端；固定/永久围栏占 86.7%；专业承包商渠道占 72.3%——说明这是一个<strong>由承包商主导、以永久性围栏为主</strong>的工程型市场。<span class="source-ref">[2]</span></p>
+
+  <h3>3）三重需求驱动：住宅安防、农业、基建<span class="h3-tag">驱动</span></h3>
+  <div class="grid-2">
+    <div class="card tight" style="margin:0">
+      <h4 style="margin:0 0 6px;font-size:15px">住宅安防：新推住房 45.3 万套</h4>
+      <p style="font-size:13.5px;margin-bottom:0">2025 年巴西新推住房 453,005 套（+10.6%），Minha Casa Minha Vida 项目 224,842 套（+13.5%），推盘金额 542 亿美元；封闭式社区与公寓项目普遍把围栏作为“第一道安防”，并与摄像头、门禁组合使用。围栏需求因此具有<strong>新建 + 存量更换</strong>双重属性。<span class="source-ref">[2]</span></p>
+    </div>
+    <div class="card tight" style="margin:0">
+      <h4 style="margin:0 0 6px;font-size:15px">农业：牛只圈养 925 万头（+16%）</h4>
+      <p style="font-size:13.5px;margin-bottom:0">巴西农业集约化持续推进：2024/25 年度粮食产量 3.502 亿吨、2025 年牛肉产量 1,230 万吨；牛只圈养规模达 925 万头，同比增长 16%，分布在 2,445 个农场、1,095 个市镇。农场从散养转向集约化布局，需要更多永久边界、分区围栏与机械防护围栏。<span class="source-ref">[2]</span> Grand View Research 亦指出，<strong>农业是巴西金属网需求增速最快的应用端</strong>。<span class="source-ref">[1]</span></p>
+    </div>
+  </div>
+  <div class="card tight">
+    <h4 style="margin:0 0 6px;font-size:15px">基础设施：交通特许经营 298 亿美元、8,449 公里公路</h4>
+    <p style="font-size:13.5px;margin-bottom:0">2025 年巴西联邦交通特许经营组合预计 298 亿美元、涉及 8,449 公里公路；新增长加速计划（PAC）交通板块 519 亿美元（道路 344 亿、铁路 174 亿美元）。截至 2025 年 12 月，2023–2026 年承诺的 2,411 亿美元已执行 1,752 亿美元（70.8%）。新建与升级走廊带来路侧屏障、牲畜围栏、野生动物防护与资产周界围栏需求，为围栏网提供<strong>公共与特许经营支持的稳定需求</strong>。<span class="source-ref">[2]</span></p>
+  </div>
+
+  <h3>4）供给侧与价格环境</h3>
+  <p>巴西围栏市场集中度低，区域性线材与网类加工商众多（如 Morlan、Sitela 等），存在明显的本地加工与非正规厂商竞争；2024 年 5 月至 2025 年 1 月线材价格上涨 12%–17%，压缩加工商毛利。<span class="source-ref">[2]</span> 截至 2026 年 9 月，巴西金属制品生产者价格指数同比 +4.2%、基本金属投入价格同比 +9.4%；政策利率 13.75%、雷亚尔 5.13/美元，高利率与汇率波动会压制住宅与工程项目的采购节奏。<span class="source-ref">[4]</span> 这意味着链式围栏网虽为走量品，但<strong>价格竞争激烈、对成本与汇率敏感</strong>。</p>
+</section>
+
+<section id="others">
+  <h2><span class="no">06</span>其他产品的动态与信号</h2>
+  <p class="lead">热量不是均匀的。焊接网是增速最快的方向，不锈钢编织网是高价值细分，钢板网明显降温，浸塑网则显示巴西本地供给能力较强。</p>
+
+  <div class="profiles">
+    <div class="profile">
+      <h4>钢筋焊接网 / 镀锌电焊网（tela soldada）</h4>
+      <div class="p-meta">HS 7314.20 + 7314.31 + 7314.39</div>
+      <p>巴西建筑市场 2025 年 818.3 亿美元、CAGR 3.1%，PAC-3 与 Minha Casa Minha Vida 3.0 支撑需求；焊接网是混凝土楼板与预制构件的标准配筋材料。<span class="source-ref">[3]</span> 但进口占比低——近12个月三个焊接网编码合计约 1,030 万美元，说明<strong>本地产能占主导</strong>，进口更多是补充规格与价格带。</p>
+      <div class="p-stats"><span class="pill">进口 $10.3M</span><span class="pill good">大网孔 +26.9%</span><span class="pill good">镀锌焊网 +6.7%</span><span class="pill">建筑驱动</span></div>
+    </div>
+    <div class="profile">
+      <h4>不锈钢编织网（工业过滤/筛分）</h4>
+      <div class="p-meta">HS 7314.14 + 7314.19</div>
+      <p>不锈钢编织网近12个月进口 1,000 万美元、同比 +14.5%，是进口额第二大的单一编码；普通编织网 290 万美元、同比 +17.6%。两者合计 1,290 万美元，单价显著高于围栏网，属于<strong>高价值、小批量、工业用途</strong>的细分市场，需求与矿业、造纸、化工、食品加工相关，而非住宅围栏。<span class="source-ref">[7][11]</span></p>
+      <div class="p-stats"><span class="pill">进口 $12.9M</span><span class="pill good">+14.5% / +17.6%</span><span class="pill">高单价</span><span class="pill">工业过滤</span></div>
+    </div>
+    <div class="profile">
+      <h4>钢板网（chapa expandida）</h4>
+      <div class="p-meta">HS 7314.50</div>
+      <p>钢板网近12个月进口 510 万美元，同比 <strong>-29.2%</strong>，是降幅最大的类别；进口均价 1,548 美元/吨，折合约 3,295 吨。其应用集中在建筑吊顶、平台、机械防护与工业踏步，需求与工业投资和项目节奏高度相关，短期热度明显回落。<span class="source-ref">[9]</span></p>
+      <div class="p-stats"><span class="pill">进口 $5.1M</span><span class="pill bad">-29.2%</span><span class="pill">≈3,295 t</span></div>
+    </div>
+    <div class="profile">
+      <h4>浸塑网类（PVC/塑料涂层）</h4>
+      <div class="p-meta">HS 7314.42</div>
+      <p>浸塑网近12个月进口约 140 万美元，但出口 190 万美元，<strong>巴西为净出口方</strong>，出口均价 4,091 美元/吨；说明本地浸塑加工能力较强，进口以特定规格补充为主。对出口方而言，该品类机会更多在差异化规格与交期，而非低价走量。<span class="source-ref">[12]</span></p>
+      <div class="p-stats"><span class="pill">进口 $1.4M</span><span class="pill good">出口 $1.9M</span><span class="pill">本地供给强</span></div>
+    </div>
+  </div>
+
+  <div class="note"><strong>价格与替代风险：</strong>塑料与复合材料围栏是围栏市场中增速最快的材料（2026–2031 CAGR 7.10%），在沿海与高湿环境更受青睐；铝合金也在住宅与商业场景渗透。金属围栏仍占主导，但价值结构正缓慢向低维护材料倾斜。<span class="source-ref">[2]</span></div>
+</section>
+
+<section id="risk">
+  <h2><span class="no">07</span>风险、局限与数据说明</h2>
+  <div class="warn"><strong>数据局限：</strong>HS 7314.41 同时包含链式围栏网、六角网、石笼网等镀锌非焊接网类，无法进一步拆分到单一产品；本报告以 Mordor Intelligence 对“链式围栏结构是主要金属围栏产品”的判断作为产品归因依据。若需要精确到单一产品的进口量，需要购买按产品描述的海关明细数据。此外，本报告未使用任何中文来源，全部引用来源为英文公开资料。</div>
+  <ul>
+    <li><strong>总量回调：</strong>近12个月 HS 7314 进口额同比 -3.6%，链式围栏网 -5.4%，需警惕把“规模第一”误读为“高增长”。</li>
+    <li><strong>本地竞争：</strong>围栏市场集中度低、区域加工商与非正规厂商多，价格竞争激烈；线材价格上涨 12%–17%（2024年5月–2025年1月）压缩毛利。<span class="source-ref">[2]</span></li>
+    <li><strong>宏观与汇率：</strong>政策利率 13.75%、雷亚尔 5.13/美元、金属制品 PPI 同比 +4.2%，高融资成本可能延后住宅与工程项目。<span class="source-ref">[4]</span></li>
+    <li><strong>替代材料：</strong>塑料/复合材料围栏 CAGR 7.10%，铝合金在住宅与商业场景渗透。<span class="source-ref">[2]</span></li>
+    <li><strong>口径边界（国内产量）：</strong>巴西建筑用焊接钢丝网（tela soldada）以本地生产为主，进口规模仅约 1,000 万美元，无法反映其国内消费量；本报告的热度结论建立在“进口交易 + 围栏终端市场”的可比口径上。若以国内建筑用量衡量，焊接网可能是最大的单一产品类别，但缺少公开的英文分产品产量数据。</li>
+    <li><strong>口径差异：</strong>不同数据源的统计范围与时间窗口不同（IndexBox 为近12个月海关数据；UN Comtrade 为年度数据；市场研究为 2025 年估计与 2026–2031 预测），跨源对比时以趋势与量级为主。</li>
+  </ul>
+</section>
+
+<section id="action">
+  <h2><span class="no">08</span>行动建议</h2>
+  <p class="lead">若目标是进入或扩大巴西金属网市场，建议按“基本盘—增长线—价值线—观望线”组合配置资源。</p>
+  <div class="card">
+    <ol style="margin-bottom:0">
+      <li><strong>基本盘：镀锌链式围栏网（alambrado）。</strong>以热镀锌 + 浸塑双产品线覆盖住宅安防与农业围栏；主攻专业承包商渠道（占安装价值 72.3%），并准备 1.5–2.5 米高度、常见网孔与丝径的标准化规格组合。<span class="source-ref">[2]</span></li>
+      <li><strong>增长线：六角网/农业网 + 焊接网。</strong>农业是金属网增速最快的应用端，六角网（禽舍、果园、防护）可借农业集约化与禽肉出口增长；焊接网则需与本地加工商或建筑项目合作，主攻大网孔、高强度规格（7314.20 增速 +26.9%）。<span class="source-ref">[1][2][4]</span></li>
+      <li><strong>价值线：不锈钢编织网与精细网。</strong>面向矿业、造纸、化工、食品加工等工业客户，小批量、高单价、强调认证与稳定性；不宜按围栏网的价格逻辑竞争。<span class="source-ref">[4][7]</span></li>
+      <li><strong>观望线：钢板网。</strong>进口同比 -29.2%，短期需求走弱，建议控制库存与报价周期，等待工业与建筑项目回暖信号。<span class="source-ref">[9]</span></li>
+      <li><strong>成本与报价：</strong>锁定锌与线材成本，关注雷亚尔汇率与巴西高利率环境；对工程类订单采用短周期报价，避免长单敞口。</li>
+    </ol>
+  </div>
+</section>
+
+<section id="sources">
+  <h2><span class="no">09</span>数据来源（全部为英文公开资料）</h2>
+  <p class="lead">以下来源均为英文页面/数据库，按报告引用顺序编号；市场研究数据为各机构公开发布的摘要页，贸易数据为联合国商品贸易数据库与 IndexBox 巴西海关数据。</p>
+  <ol class="sources">
+    <li>
+      <div class="src-title">Grand View Research — Brazil Wire Mesh Market Size &amp; Outlook, 2026–2033</div>
+      <div class="src-meta"><a href="https://www.grandviewresearch.com/horizon/outlook/wire-mesh-market/brazil" target="_blank" rel="noopener">grandviewresearch.com/horizon/outlook/wire-mesh-market/brazil</a></div>
+      <div class="src-use">用途：巴西金属网市场规模、增速、应用端结构（建筑最大、农业最快）。</div>
+    </li>
+    <li>
+      <div class="src-title">Mordor Intelligence — Brazil Fencing Market Size, Share &amp; 2031 Growth Trends</div>
+      <div class="src-meta"><a href="https://www.mordorintelligence.com/industry-reports/brazil-fencing-market" target="_blank" rel="noopener">mordorintelligence.com/industry-reports/brazil-fencing-market</a></div>
+      <div class="src-use">用途：巴西围栏市场规模、材料结构（金属 51.4%）、链式围栏为主要产品、住宅/农业/基建驱动与限制因素。</div>
+    </li>
+    <li>
+      <div class="src-title">Mordor Intelligence — Brazil Construction Market Size, Share &amp; 2030 Growth Trends</div>
+      <div class="src-meta"><a href="https://www.mordorintelligence.com/industry-reports/brazil-construction-market" target="_blank" rel="noopener">mordorintelligence.com/industry-reports/brazil-construction-market</a></div>
+      <div class="src-use">用途：巴西建筑市场规模与增速（2025 年 818.3 亿美元，CAGR 3.1%），焊接网下游景气。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Iron or Steel Wire Cloth, Netting and Fencing (HS 7314), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/7314/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/7314/76/</a></div>
+      <div class="src-use">用途：巴西 HS 7314 近12个月进口总额（4,510 万美元，-3.6%）、出口（690 万美元）与宏观驱动指标。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Galvanized Steel Wire Netting and Fencing (HS 7314.41), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731441/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731441/76/</a></div>
+      <div class="src-use">用途：链式/镀锌非焊接围栏网进口额 1,320 万美元（-5.4%）、出口 100 万美元、进口均价 1,151 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Galvanized Welded Wire Mesh and Fencing (HS 7314.31), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731431/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731431/76/</a></div>
+      <div class="src-use">用途：镀锌电焊网进口 520 万美元（+6.7%）、出口 160 万美元、均价 1,095 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Woven Stainless Steel Wire Cloth (HS 7314.14), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731414/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731414/76/</a></div>
+      <div class="src-use">用途：不锈钢编织网进口 1,000 万美元（+14.5%）。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Welded Steel Mesh, 3 mm Wire or More (HS 7314.20), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731420/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731420/76/</a></div>
+      <div class="src-use">用途：大网孔焊接网进口 190 万美元（+26.9%）、均价 1,808 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Iron or Steel Expanded Metal (HS 7314.50), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731450/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731450/76/</a></div>
+      <div class="src-use">用途：钢板网进口 510 万美元（-29.2%）、出口 60 万美元、均价 1,548 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Welded Steel Wire Grill and Netting, Not Galvanized (HS 7314.39), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731439/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731439/76/</a></div>
+      <div class="src-use">用途：非镀锌焊接网进口 320 万美元（-6.6%）、均价 1,309 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Woven Iron or Steel Wire Cloth, Not Stainless (HS 7314.19), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731419/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731419/76/</a></div>
+      <div class="src-use">用途：普通编织网进口 290 万美元（+17.6%）。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Plastic-Coated Steel Wire Netting (HS 7314.42), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731442/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731442/76/</a></div>
+      <div class="src-use">用途：浸塑网进口 140 万美元、出口 190 万美元、出口均价 4,091 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">IndexBox — Fine Coated Netting (HS 7314.49), Brazil</div>
+      <div class="src-meta"><a href="https://app.indexbox.io/indicators/731449/76/" target="_blank" rel="noopener">app.indexbox.io/indicators/731449/76/</a></div>
+      <div class="src-use">用途：精细涂层网进口 150 万美元（-1.6%）、均价 10,321 美元/吨。</div>
+    </li>
+    <li>
+      <div class="src-title">World Bank WITS / UN Comtrade — Brazil Trade Statistics by Product (HS 7314)</div>
+      <div class="src-meta"><a href="https://wits.worldbank.org/trade/country-byhs6product.aspx?lang=en&amp;c=BRA&amp;p=7314" target="_blank" rel="noopener">wits.worldbank.org/trade/country-byhs6product.aspx?lang=en&amp;c=BRA&amp;p=7314</a></div>
+      <div class="src-use">用途：2019–2024 年巴西 HS 7314 进口/出口额与吨数趋势（2024 年进口 4,816 万美元）。</div>
+    </li>
+    <li>
+      <div class="src-title">ResearchAndMarkets — Brazil Fencing Market Share Analysis, Industry Trends &amp; Statistics (2026–2031)</div>
+      <div class="src-meta"><a href="https://www.researchandmarkets.com/reports/6254302/brazil-fencing-market-share-analysis-industry" target="_blank" rel="noopener">researchandmarkets.com/reports/6254302</a></div>
+      <div class="src-use">用途：交叉核对 Mordor Intelligence 的巴西围栏市场规模、材料结构与增速数据。</div>
+    </li>
+  </ol>
+  <p class="legend">检索方式：以英文关键词检索并逐页核对上述英文原始页面；未引用中文搜索结果。检索与报告生成日期：2026年11月12日。</p>
+</section>
+
+<section id="appendix">
+  <h2><span class="no">10</span>附录：HS 7314 全量进口数据表（近12个月）</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>HS 编码</th><th>产品说明（英文/中文）</th><th class="num">进口额</th><th class="num">同比</th><th class="num">进口均价</th><th class="num">折合进口量</th><th class="num">占 HS7314</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>7314.12</td><td>Endless bands for machinery, stainless / 不锈钢环带</td><td class="num">$0.7M</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">1.6%</td></tr>
+        <tr><td>7314.14</td><td>Woven cloth, stainless / 不锈钢编织网</td><td class="num">$10.0M</td><td class="num up">+14.5%</td><td class="num">—</td><td class="num">≈1,850 t<sup>*</sup></td><td class="num">22.2%</td></tr>
+        <tr><td>7314.19</td><td>Woven cloth, not stainless / 普通编织网</td><td class="num">$2.9M</td><td class="num up">+17.6%</td><td class="num">—</td><td class="num">≈1,200 t<sup>*</sup></td><td class="num">6.4%</td></tr>
+        <tr><td>7314.20</td><td>Welded mesh, ≥3mm / ≥100cm² / 大网孔焊接网</td><td class="num">$1.9M</td><td class="num up">+26.9%</td><td class="num">$1,808/t</td><td class="num">≈1,051 t</td><td class="num">4.2%</td></tr>
+        <tr><td>7314.31</td><td>Welded, zinc-coated / 镀锌电焊网</td><td class="num">$5.2M</td><td class="num up">+6.7%</td><td class="num">$1,095/t</td><td class="num">≈4,749 t</td><td class="num">11.5%</td></tr>
+        <tr><td>7314.39</td><td>Welded, not galvanized / 非镀锌焊接网</td><td class="num">$3.2M</td><td class="num down">-6.6%</td><td class="num">$1,309/t</td><td class="num">≈2,445 t</td><td class="num">7.1%</td></tr>
+        <tr style="background:#fff8e6"><td><strong>7314.41</strong></td><td><strong>Galvanized netting &amp; fencing / 镀锌围栏网（链式围栏网、六角网、石笼网）</strong></td><td class="num"><strong>$13.2M</strong></td><td class="num down">-5.4%</td><td class="num">$1,151/t</td><td class="num"><strong>≈11,468 t</strong></td><td class="num"><strong>29.3%</strong></td></tr>
+        <tr><td>7314.42</td><td>Plastic-coated netting / 浸塑网</td><td class="num">$1.4M</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">3.1%</td></tr>
+        <tr><td>7314.49</td><td>Coated other than zinc/plastic / 精细涂层网</td><td class="num">$1.5M</td><td class="num down">-1.6%</td><td class="num">$10,321/t</td><td class="num">≈145 t</td><td class="num">3.3%</td></tr>
+        <tr><td>7314.50</td><td>Expanded metal / 钢板网</td><td class="num">$5.1M</td><td class="num down">-29.2%</td><td class="num">$1,548/t</td><td class="num">≈3,295 t</td><td class="num">11.3%</td></tr>
+        <tr style="background:#eef3f9"><td colspan="2"><strong>合计 HS 7314</strong></td><td class="num"><strong>$45.1M</strong></td><td class="num down">-3.6%</td><td class="num">—</td><td class="num">—</td><td class="num">100%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="legend">数据来源：IndexBox 巴西海关数据，2025年7月–2026年6月；进口额占比按 4,510 万美元计算。<sup>*</sup> 按 UN Comtrade 2024 年单位价值估算（不锈钢编织网约 5,400 美元/吨、普通编织网约 2,400 美元/吨），仅供量级参考。各分项四舍五入，合计可能与 100% 略有差异。</p>
+
+  <div class="divider"></div>
+  <p class="disclaimer"><strong>免责声明：</strong>本报告由 AI 研究代理根据上述英文公开资料整理，用于市场调研参考，不构成投资或贸易决策建议。贸易数据为海关统计口径，可能因统计时点、汇率与编码调整而变化；市场预测数据为原研究机构观点。报告日期：2026年11月12日。</p>
+  <div class="footer">Brazil Metal Mesh Market Heat Report · 2026-11-12 · English sources only</div>
+</section>
+
+</div>
+</body>
+</html>
